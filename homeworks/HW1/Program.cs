@@ -44,13 +44,18 @@ else
 
 Console.WriteLine("Input number");
 int n = Convert.ToInt32(Console.ReadLine());
-int num = 0;
+int num = 2;
 
-while (num < n)
+if (n < 2)
 {
-    if ((num % 2) == 0)
+   Console.WriteLine("there is no even numbers"); 
+}
+else
+{
+    while (num <= n)
     {
-        Console.WriteLine(num);
-        num == num +2
+       Console.WriteLine(num);
+       num = num + 2; 
     }
 }
+
