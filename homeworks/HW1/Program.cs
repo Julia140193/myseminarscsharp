@@ -42,7 +42,7 @@ else
 
 // Task 8
 
-Console.WriteLine("Input number");
+/*Console.WriteLine("Input number");
 int n = Convert.ToInt32(Console.ReadLine());
 int num = 2;
 
@@ -57,5 +57,5 @@ else
        Console.WriteLine(num);
        num = num + 2; 
     }
-}
 
+}*/
