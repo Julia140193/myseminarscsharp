@@ -21,20 +21,35 @@ else
 
 // Task 13
 
-/*int CutNumber (int num)
-{
-    int s = Convert.To
-    return dig3;
-}
-Console.WriteLine("Input number ");
+/*Console.WriteLine("Input number ");
 int n = Convert.ToInt32(Console.ReadLine());
-
-if(n >= 100)
+if (n < 100)
 {
-    int di3 = CutNumber(n);
-    Console.WriteLine($"The third digit of {n} is {dig3}");
+    Console.WriteLine("there is no third digit");
 }
 else
 {
-    Console.WriteLine("Missing third digit");
+    while (n > 999)
+    {
+        n = n / 10;
+    }
+    Console.WriteLine(n % 10);
 }*/
+
+// Task 15
+
+/*bool Week (int day)
+{
+    if (day == 6 || day == 7)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+Console.WriteLine("Input day number ");
+int day = Convert.ToInt32(Console.ReadLine());
+bool b = Week(day);
+Console.WriteLine(b);*/
