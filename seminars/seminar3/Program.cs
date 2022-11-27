@@ -42,7 +42,7 @@ FindCoordinates(quart);*/
 
 // Task 3
 
-/*double Line(double x1, double x2, double y1, double y2)
+double Line(double x1, double x2, double y1, double y2)
 {
     double Len = Math.Sqrt((x1 - x2)*(x1 - x2) + (y1 - y2)*(y1 - y2));
     Console.WriteLine(Len);
@@ -56,7 +56,7 @@ Console.WriteLine("Введите координату x2");
 double x2 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите координату y2");
 double y2 = Convert.ToDouble(Console.ReadLine());
-Line(x1, x2, y1, y2);*/
+Line(x1, x2, y1, y2);
 
 // Task 4
 
