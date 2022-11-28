@@ -1,0 +1,5 @@
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW4/obj/Debug/net7.0/HW4.csproj.AssemblyReference.cache
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW4/obj/Debug/net7.0/HW4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW4/obj/Debug/net7.0/HW4.AssemblyInfoInputs.cache
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW4/obj/Debug/net7.0/HW4.AssemblyInfo.cs
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW4/obj/Debug/net7.0/HW4.csproj.CoreCompileInputs.cache
