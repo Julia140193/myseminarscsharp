@@ -43,9 +43,9 @@ int A = Convert.ToInt32(Console.ReadLine());
 int result = FindSumDigits(A);
 Console.WriteLine(result);*/
 
-// Task 29
+// Task 29 (так и не поняла, как красиво вывести массив: в [] и через запятую)
 
-void FillArray(int[] collection)
+/*void FillArray(int[] collection)
 {
     int length = collection.Length;
     int index = 0;
@@ -59,14 +59,14 @@ void FillArray(int[] collection)
 void PrintArray(int[] col)
 {
     int count = col.Length;
-    int position = 0;
-    while(position < count)
+    
+    for(int i = 0; i< count; i++)
     {
-        Console.WriteLine(col[position]);
-        position++;
+        Console.Write($"{col[i]} ");
     }
+    Console.WriteLine();
 }
 
 int [] array = new int[8];
 FillArray(array);
-PrintArray(array);
+PrintArray(array);*/
