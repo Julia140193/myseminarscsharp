@@ -1,28 +1,72 @@
 ﻿// Task 25
 
-int FindDegree (int x1, int x2)
+/*int FindDegree (int x1, int x2)
 {
+    int degreeRes = 1;
     for (int count = 1; count <= x2; count++)
     {
-        int degree = 1;
-        degree = degree * x1;
+        degreeRes = degreeRes * x1;
     }
-    return degree;
+    return degreeRes;
 }
-
 
 Console.WriteLine("Input number A ");
 int A = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input number B ");
 int B = Convert.ToInt32(Console.ReadLine());
-int degree = FindDegree(A,B);
+int degreeRes = FindDegree(A, B);
+Console.WriteLine(degreeRes);
 
 if (B > 0)
 {
     FindDegree (A, B);
-    Console.WriteLine(degree);
 }
 else
 {
     Console.WriteLine("Invalid Value");
+}*/
+
+// Task 27
+
+/*int FindSumDigits(int A)
+{
+    int sum = 0;
+    while (A > 0)
+    {
+        sum = sum + (A % 10);
+        A = A / 10;
+    }
+    return sum;
 }
+Console.WriteLine("Input number A ");
+int A = Convert.ToInt32(Console.ReadLine());
+int result = FindSumDigits(A);
+Console.WriteLine(result);*/
+
+// Task 29
+
+void FillArray(int[] collection)
+{
+    int length = collection.Length;
+    int index = 0;
+    while(index < length)
+    {
+        collection[index] = new Random().Next(1, 100); // скобки после Next можно оставить и пустыми, но тогда рандомно выскакивуют очень большие числа
+        index++;
+    }
+}
+
+void PrintArray(int[] col)
+{
+    int count = col.Length;
+    int position = 0;
+    while(position < count)
+    {
+        Console.WriteLine(col[position]);
+        position++;
+    }
+}
+
+int [] array = new int[8];
+FillArray(array);
+PrintArray(array);
