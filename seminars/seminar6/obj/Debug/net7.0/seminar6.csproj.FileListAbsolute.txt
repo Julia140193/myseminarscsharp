@@ -1,0 +1,15 @@
+/Users/uliapolakova/Desktop/myseminarscsharp/seminars/seminar6/obj/Debug/net7.0/seminar6.csproj.AssemblyReference.cache
+/Users/uliapolakova/Desktop/myseminarscsharp/seminars/seminar6/obj/Debug/net7.0/seminar6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/uliapolakova/Desktop/myseminarscsharp/seminars/seminar6/obj/Debug/net7.0/seminar6.AssemblyInfoInputs.cache
+/Users/uliapolakova/Desktop/myseminarscsharp/seminars/seminar6/obj/Debug/net7.0/seminar6.AssemblyInfo.cs
+/Users/uliapolakova/Desktop/myseminarscsharp/seminars/seminar6/obj/Debug/net7.0/seminar6.csproj.CoreCompileInputs.cache
+/Users/uliapolakova/Desktop/myseminarscsharp/seminars/seminar6/bin/Debug/net7.0/seminar6
+/Users/uliapolakova/Desktop/myseminarscsharp/seminars/seminar6/bin/Debug/net7.0/seminar6.deps.json
+/Users/uliapolakova/Desktop/myseminarscsharp/seminars/seminar6/bin/Debug/net7.0/seminar6.runtimeconfig.json
+/Users/uliapolakova/Desktop/myseminarscsharp/seminars/seminar6/bin/Debug/net7.0/seminar6.dll
+/Users/uliapolakova/Desktop/myseminarscsharp/seminars/seminar6/bin/Debug/net7.0/seminar6.pdb
+/Users/uliapolakova/Desktop/myseminarscsharp/seminars/seminar6/obj/Debug/net7.0/seminar6.dll
+/Users/uliapolakova/Desktop/myseminarscsharp/seminars/seminar6/obj/Debug/net7.0/refint/seminar6.dll
+/Users/uliapolakova/Desktop/myseminarscsharp/seminars/seminar6/obj/Debug/net7.0/seminar6.pdb
+/Users/uliapolakova/Desktop/myseminarscsharp/seminars/seminar6/obj/Debug/net7.0/seminar6.genruntimeconfig.cache
+/Users/uliapolakova/Desktop/myseminarscsharp/seminars/seminar6/obj/Debug/net7.0/ref/seminar6.dll
