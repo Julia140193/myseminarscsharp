@@ -1,0 +1,15 @@
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW6/obj/Debug/net7.0/HW6.csproj.AssemblyReference.cache
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW6/obj/Debug/net7.0/HW6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW6/obj/Debug/net7.0/HW6.AssemblyInfoInputs.cache
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW6/obj/Debug/net7.0/HW6.AssemblyInfo.cs
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW6/obj/Debug/net7.0/HW6.csproj.CoreCompileInputs.cache
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW6/bin/Debug/net7.0/HW6
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW6/bin/Debug/net7.0/HW6.deps.json
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW6/bin/Debug/net7.0/HW6.runtimeconfig.json
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW6/bin/Debug/net7.0/HW6.dll
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW6/bin/Debug/net7.0/HW6.pdb
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW6/obj/Debug/net7.0/HW6.dll
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW6/obj/Debug/net7.0/refint/HW6.dll
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW6/obj/Debug/net7.0/HW6.pdb
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW6/obj/Debug/net7.0/HW6.genruntimeconfig.cache
+/Users/uliapolakova/Desktop/myseminarscsharp/homeworks/HW6/obj/Debug/net7.0/ref/HW6.dll
