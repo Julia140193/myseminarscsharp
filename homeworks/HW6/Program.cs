@@ -45,7 +45,7 @@ int [] myArray = CreateRandomArray(a, min, max);
 ShowArray(Quantity(myArray));*/
 
 // Task 43
-/*int FindPointCoordinates (int k1, int b1, int k2, int b2)
+int FindPointCoordinates (int k1, int b1, int k2, int b2)
 {
     int x = 0;
     int y = 0;
@@ -72,4 +72,4 @@ int k2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("введите значение b2");
 int b2 = Convert.ToInt32(Console.ReadLine());
 
-FindPointCoordinates(k1, b1, k2, b2);*/
+FindPointCoordinates(k1, b1, k2, b2);

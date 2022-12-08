@@ -68,8 +68,32 @@ else
     Console.WriteLine("Введите числа больше нуля, иначе программа не заработает");
 }*/
 
+// ПОДУМАТЬ КАК ПАПА СКАЗАЛ
+ int FindSum (int m, int n)
+{
+   if(m == n) 
+   {
+        return m + FindSum(m +1, n);
+   }
+   return n;        
+}
+Console.WriteLine ("Введите число ");
+int m = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine ("Введите число ");
+int n = Convert.ToInt32(Console.ReadLine());
 
+if(m < n)
+{
+    Console.WriteLine(FindSum(m,n));
+}
+else
+{
+    Console.WriteLine(FindSum(n,m));
+}
 
+ 
+
+ 
 
 
 
