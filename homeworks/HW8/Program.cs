@@ -1,6 +1,6 @@
 ﻿// Task 54
 
-/*int [,] Create2RandomDArray (int rows, int columns, int minValue, int maxValue)
+int [,] Create2RandomDArray (int rows, int columns, int minValue, int maxValue)
 {
     int [,] newArray = new int[rows, columns]; //выделяем память для массива
     for(int i = 0; i < rows; i++)
@@ -31,26 +31,13 @@ int [,] ChangeElements (int [,] array)
 {
     for(int i = 0; i< array.GetLength(0); i++)
     {
-        for(int j = 0; j< array.GetLength(1); j++)
+        for(int j = 0; j < array.GetLength(1); j++)
         {
-            // for (int k = 0; k < array.GetLength(1); k++) 
-            {
-                int max = array[0,0];
-                if (array[i,j] > max)
-                {
-                    max = array[i,j];
-                }
-                int temp = array[i,j];
-                array[i,j] = max;
-                max = temp;
-            }
-
-        }
+            
+        }    
     }
+    return array;
 }
-
-
-
 
 Console.WriteLine("Введите количество строк");
 int rows = Convert.ToInt32(Console.ReadLine());
@@ -62,7 +49,9 @@ Console.WriteLine("Введите максимальное значение эл
 int max = Convert.ToInt32(Console.ReadLine());
 
 int[,] myArray = Create2RandomDArray(rows,columns, min, max);
-Show2DArray(myArray);*/
+Show2DArray(myArray);
+int [,] newArray = ChangeElements(myArray);
+Show2DArray(newArray);
 
 // Task 56
 
