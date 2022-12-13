@@ -1,6 +1,6 @@
-﻿// Task 54
+﻿// Task 54 получилось
 
-int [,] Create2RandomDArray (int rows, int columns, int minValue, int maxValue)
+/*int [,] Create2RandomDArray (int rows, int columns, int minValue, int maxValue)
 {
     int [,] newArray = new int[rows, columns]; //выделяем память для массива
     for(int i = 0; i < rows; i++)
@@ -31,9 +31,18 @@ int [,] ChangeElements (int [,] array)
 {
     for(int i = 0; i< array.GetLength(0); i++)
     {
-        for(int j = 0; j < array.GetLength(1); j++)
+        for(int j = 0; j < array.GetLength(1)-1; j++)
         {
-            
+            for(int n=0; n < array.GetLength(1)-1; n++)
+            {
+                if(array[i,n] < array[i, n+1])
+                {
+                    int temp = 0;
+                    temp = array[i,n];
+                    array[i,n] = array[i,n+1];
+                    array[i,n+1] = temp;
+                }
+            }
         }    
     }
     return array;
@@ -51,9 +60,9 @@ int max = Convert.ToInt32(Console.ReadLine());
 int[,] myArray = Create2RandomDArray(rows,columns, min, max);
 Show2DArray(myArray);
 int [,] newArray = ChangeElements(myArray);
-Show2DArray(newArray);
+Show2DArray(newArray);*/
 
-// Task 56
+// Task 56 получилось
 
 /*int [,] Create2RandomDArray (int rows, int columns, int minValue, int maxValue)
 {
@@ -85,28 +94,22 @@ void SumofRows (int [,] array)
     int no = 0;
     int sum = 0;
     int min = 0;
-    for (int j =  sum = 0; j < array.GetLength(1); j++)
-    {
-        sum = sum + array[0,j];
-        int minsum = SumofRows;
-        no = 0;
-    }
     for (int i = 0; i < array.GetLength(0); i++)
     {
-        for(int j = sum = 0; j < array.GetLength(1); j++)
+        for (int j = 0; j < array.GetLength(1); j++)
         {
             sum = sum + array[i,j];
         }
-        if(sum < minsum) 
+        if(sum < min) 
         {
-            minsum = sum;
-            no = i;
+            min = sum;
+            no++;
         }
-        Console.WriteLine($"{sum}");
-        Console.WriteLine($"{i}");
+        Console.Write($"{sum}" + " "); // можно сумму и не выводить, но для удобства проверки оставим
     }
+    Console.WriteLine();
+    Console.WriteLine($"{no}");
 }
-
 
 Console.WriteLine("Введите количество строк");
 int rows = Convert.ToInt32(Console.ReadLine());
@@ -117,12 +120,20 @@ int min = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите максимальное значение элемента");
 int max = Convert.ToInt32(Console.ReadLine());
 
-int [,] myArray = Create2RandomDArray(rows,columns, min, max);
-Show2DArray(myArray);
-Console.WriteLine();
-SumofRows(myArray);*/
+if(rows==columns)
+{
+    Console.WriteLine("Введите прямоугольный массив, то есть строки не должны быть равны столбцам");
+}
+else
+{
+    int [,] myArray = Create2RandomDArray(rows,columns, min, max);
+    Show2DArray(myArray);
+    Console.WriteLine();
+    SumofRows(myArray);
+}*/
 
-// Task 58
+
+// Task 58 получилось
 
 /*int [,] CreateRandomArray1 (int rows, int columns, int minValue, int maxValue)
 {
@@ -240,3 +251,87 @@ ShowArray2(myArray2);
 Console.WriteLine();
 int [,] prod = MatrixProduct(myArray1, myArray2);
 ShowArray3(prod);*/
+
+// Task 60 не получилось
+
+// Task 62 получилось
+
+/*Console.WriteLine("Введите количество строк массива");
+int rows = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите количество столбцов массива");
+int columns = Convert.ToInt32(Console.ReadLine());
+
+int [,] a = new int[rows, columns];
+int r = 0;
+int c = 0;
+for(c = 0; c < columns; c++)
+{
+    for(r = 0; r< rows; r++)
+    {
+        a[r,c] = 0;
+    }
+}
+int dir = 0;
+int k = 0;
+for(r=c=dir=k=0; k < rows*columns; )
+{
+    a[r,c] = ++k;
+    if(k==rows*columns) break;
+
+    while(true) 
+        {
+            if(dir==0) 
+            {
+                if(c+1<columns) 
+                    if(a[r,c+1]==0) 
+                    {
+                        ++c;
+                        break;
+                    }
+                dir= 1;
+                
+            } 
+            else if(dir==1) 
+            {
+                if(r+1<rows) 
+                    if(a[r+1,c]==0) 
+                    {
+                        ++r;
+                        break;
+                    }
+                dir= 2;
+                
+            } 
+            else if(dir==2) 
+            {
+                if(c-1>=0) 
+                    if(a[r,c-1]==0) 
+                    {
+                        --c;
+                        break;
+                    }
+                dir= 3;
+
+            } 
+            else if(dir==3) 
+            {
+                if(r-1>=0) 
+                    if(a[r-1,c]==0) 
+                    {
+                        --r;
+                        break;
+                    }
+                dir= 0;
+                
+            }
+        }
+    }
+    
+    for(r= 0; r<rows; r++) 
+    {
+        for(c= 0; c<columns; c++) 
+        {
+            Console.Write("{0,3:D2}", a[r,c]);
+        }
+        Console.WriteLine(" ");
+    }*/
